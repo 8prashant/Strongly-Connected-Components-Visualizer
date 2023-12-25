@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SCC Visualizer</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Strongly Connected Components Visualizer</h1>
+        <p>Explore the structure of directed graphs</p>
+    </div>
+    <div id="input-container">
+        <div class="input-group">
+            <label for="nodeCount">Number of Nodes:</label>
+            <input type="number" id="nodeCount" min="1" value="5">
+        </div>
+    
+        <div class="input-group">
+            <label for="edges">Edges (comma-separated):</label>
+            <input type="text" id="edges" placeholder="e.g., 0-1, 1-2, ...">
+        </div>
+    
+        <div class="button-group">
+            <button onclick="visualizeGraph()">Visualize</button>
+            <button onclick="clearGraph()">Clear</button>
+        </div>
+    </div>
+    <div id="graph-container">
+        <!-- Graph will be drawn here -->
+    </div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
