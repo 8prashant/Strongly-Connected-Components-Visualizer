@@ -6,6 +6,11 @@ Welcome to the Strongly Connected Components Visualizer! This web application al
 
 Check out the live demo: [Strongly Connected Components Visualizer](https://spectacular-llama-9ad7a3.netlify.app/)
 
+## Screenshot
+
+![Homepage](https://github.com/8prashant/Strongly-Connected-Components-Visualizer/blob/main/ss.png)
+
+
 ## Features
 
 - **Interactive Visualization:** Input the number of nodes and edges (comma-separated) to visualize the directed graph.
